@@ -226,7 +226,7 @@ const Index = () => {
             </Card>
             <Card className="hover:shadow-lg transition-shadow border-l-4 border-l-accent">
               <CardHeader>
-                <CardTitle className="text-accent font-montserrat">НЕ ИГРЫ</CardTitle>
+                <CardTitle className="text-secondary font-montserrat">НЕ ИГРЫ</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm">Часовая программа по мотивам известного шоу во ВКонтакте! Стол, куча реквизита, 8 динамичных раундов и самый настоящий накал страстей - идеально для тимбилдинга или корпоратива!</p>
