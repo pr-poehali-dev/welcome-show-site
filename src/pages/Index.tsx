@@ -68,7 +68,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 to-secondary/10 pt-20"
                style={{
-                 backgroundImage: `url(/img/7045eb7d-e94a-4c72-b42f-177b4cf1aca4.jpg)`,
+                 backgroundImage: `url(https://cdn.poehali.dev/files/acff0a38-373f-4971-8c07-132b61cd4a26.jpg)`,
                  backgroundSize: 'cover',
                  backgroundPosition: 'center'
                }}>
