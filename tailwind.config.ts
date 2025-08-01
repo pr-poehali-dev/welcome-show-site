@@ -40,6 +40,14 @@ export default {
 					DEFAULT: '#FDD835',
 					foreground: '#2C2C2C'
 				},
+				neutral: {
+					DEFAULT: '#F8F9FA',
+					foreground: '#2D3748'
+				},
+				warm: {
+					DEFAULT: '#FFF5F5',
+					foreground: '#744210'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'

@@ -92,7 +92,7 @@ const Index = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-neutral">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-montserrat font-bold text-center mb-12 text-gray-800">
             ПОЧЕМУ ПРАЗДНИК С НАМИ - ВАШ ЛУЧШИЙ ВАРИАНТ?
@@ -245,13 +245,16 @@ const Index = () => {
       </section>
 
       {/* Event Types */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-warm">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-montserrat font-bold text-center mb-12 text-gray-800">
             А ДЛЯ МОЕГО ПОВОДА ПОДОЙДЁТ? КОНЕЧНО!
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-shadow relative overflow-hidden">
+              <div className="absolute top-4 right-4 opacity-20">
+                <img src="/img/b81b6e79-d9e3-46b3-bbf8-e51e3545bd0e.jpg" alt="Birthday cake" className="w-20 h-20 object-contain" />
+              </div>
               <CardHeader>
                 <Icon name="Gift" size={40} className="text-primary mb-2" />
                 <CardTitle className="text-primary font-montserrat">ДЕНЬ РОЖДЕНИЯ/ЮБИЛЕЙ</CardTitle>
@@ -264,7 +267,10 @@ const Index = () => {
                 </ul>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-shadow relative overflow-hidden">
+              <div className="absolute top-4 right-4 opacity-20">
+                <img src="/img/f711f83f-c18e-479d-9988-4c5464326fc1.jpg" alt="Corporate event" className="w-20 h-20 object-contain" />
+              </div>
               <CardHeader>
                 <Icon name="Building" size={40} className="text-secondary mb-2" />
                 <CardTitle className="text-secondary font-montserrat">КОРПОРАТИВ/ТИМБИЛДИНГ</CardTitle>
@@ -277,7 +283,10 @@ const Index = () => {
                 </ul>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-shadow relative overflow-hidden">
+              <div className="absolute top-4 right-4 opacity-20">
+                <img src="/img/b3b495c6-5e6d-4145-bbb5-aab7115cc621.jpg" alt="Graduation" className="w-20 h-20 object-contain" />
+              </div>
               <CardHeader>
                 <Icon name="GraduationCap" size={40} className="text-accent mb-2" />
                 <CardTitle className="text-accent font-montserrat">ВЫПУСКНОЙ</CardTitle>
