@@ -26,8 +26,12 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-montserrat font-bold text-primary">
-              WELCOME SHOW
+            <div className="flex items-center">
+              <img 
+                src="https://cdn.poehali.dev/files/c1d4468b-6c9e-4dae-bca7-83187bb3c5a0.jpg" 
+                alt="Welcome Show Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             <nav className="hidden md:flex items-center space-x-6">
               <button onClick={() => scrollToSection('formats')} className="hover:text-primary transition-colors">
