@@ -30,7 +30,7 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/c1d4468b-6c9e-4dae-bca7-83187bb3c5a0.jpg" 
                 alt="Welcome Show Logo" 
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </div>
             <nav className="hidden md:flex items-center space-x-6">
