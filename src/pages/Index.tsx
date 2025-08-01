@@ -288,7 +288,7 @@ const Index = () => {
                 <img src="/img/b3b495c6-5e6d-4145-bbb5-aab7115cc621.jpg" alt="Graduation" className="w-20 h-20 object-contain" />
               </div>
               <CardHeader>
-                <Icon name="GraduationCap" size={40} className="text-accent mb-2" />
+                <Icon name="GraduationCap" size={40} className="text-primary mb-2" />
                 <CardTitle className="text-primary font-montserrat">ВЫПУСКНОЙ</CardTitle>
               </CardHeader>
               <CardContent>
