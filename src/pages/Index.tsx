@@ -289,7 +289,7 @@ const Index = () => {
               </div>
               <CardHeader>
                 <Icon name="GraduationCap" size={40} className="text-accent mb-2" />
-                <CardTitle className="text-accent font-montserrat">ВЫПУСКНОЙ</CardTitle>
+                <CardTitle className="text-primary font-montserrat">ВЫПУСКНОЙ</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm space-y-2">
