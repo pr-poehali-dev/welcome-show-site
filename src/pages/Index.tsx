@@ -100,7 +100,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Star" size={48} className="mx-auto text-accent mb-4" />
+                <Icon name="Star" size={48} className="mx-auto text-primary mb-4" />
                 <CardTitle className="text-xl font-montserrat">Опыт и Амбиции</CardTitle>
               </CardHeader>
               <CardContent>
