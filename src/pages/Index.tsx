@@ -186,7 +186,7 @@ const Index = () => {
             </Card>
             <Card className="text-center hover:shadow-xl transition-shadow">
               <CardHeader>
-                <Icon name="Calendar" size={48} className="mx-auto text-secondary mb-4" />
+                <Icon name="Ticket" size={48} className="mx-auto text-secondary mb-4" />
                 <CardTitle className="text-2xl font-montserrat text-secondary">"ТВОЕ ШОУ"</CardTitle>
                 <CardDescription className="text-lg">закрытая игра по билетам</CardDescription>
               </CardHeader>
