@@ -173,7 +173,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="text-center hover:shadow-xl transition-shadow">
               <CardHeader>
-                <Icon name="Truck" size={48} className="mx-auto text-primary mb-4" />
+                <Icon name="PartyPopper" size={48} className="mx-auto text-primary mb-4" />
                 <CardTitle className="text-2xl font-montserrat text-primary">ИГРА НА ВЫЕЗДЕ</CardTitle>
                 <CardDescription className="text-lg">приедем в любую точку Кузбасса</CardDescription>
               </CardHeader>
